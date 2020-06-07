@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+    var total1=0;
+    var total2=0;
+    var total3=0;
+
+	for(var a=1; a<=100; a++){
+
+    if(a%2==0){
+    total1+=a;
+    }
+    else if (a%2==1){
+    total2+=a;
+    }
+    total3+=a;
+
+    
+    }
+    document.write("짝수의 값은"+total1+"입니다")
+    document.write("홀수의 값은"+total2+"입니다")
+    document.write("전체의 값은"+total3+"입니다"+"<br>")
+    
+    var example;
+    example=prompt("정수를 입력하세요");
+    example=parseInt(example);
+    for(var a=1; a<10; a++){
+    document.write(example+"x"+a+"="+example*a+"<br>")
+    }
+
+</script>
+</body>
+</html>
